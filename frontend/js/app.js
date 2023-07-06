@@ -1,29 +1,35 @@
-let listStudents = [
-    {
-        name: "Олег",
-        lastname: "Островский",
-        middleName: "Русланович",
-        birthday: new Date(2001, 1, 21),
-        fuculty: "ФИСЕ",
-        start: 2019,
-    },
-    {
-        name: "Петр",
-        lastname: "Петриченко",
-        middleName: "Олегович",
-        birthday: new Date(2005, 6, 18),
-        fuculty: "Экономика",
-        start: 2021,
-    },
-    {
-        name: "Ольга",
-        lastname: "Бурундукова",
-        middleName: "Александрова",
-        birthday: new Date(2008, 6, 3),
-        fuculty: "Информатика",
-        start: 2010,
-    }
-]
+const SERVER_URL = "http://localhost:3000";
+
+ async function serverAddStudent() {
+    let respons = await fetch("http://localhost:3000")
+ }
+
+// let listStudents = [
+//     {
+//         name: "Олег",
+//         lastname: "Островский",
+//         middleName: "Русланович",
+//         birthday: new Date(2001, 1, 21),
+//         fuculty: "ФИСЕ",
+//         start: 2019,
+//     },
+//     {
+//         name: "Петр",
+//         lastname: "Петриченко",
+//         middleName: "Олегович",
+//         birthday: new Date(2005, 6, 18),
+//         fuculty: "Экономика",
+//         start: 2021,
+//     },
+//     {
+//         name: "Ольга",
+//         lastname: "Бурундукова",
+//         middleName: "Александрова",
+//         birthday: new Date(2008, 6, 3),
+//         fuculty: "Информатика",
+//         start: 2010,
+//     }
+// ]
 
 /////////////////////////////////
 
